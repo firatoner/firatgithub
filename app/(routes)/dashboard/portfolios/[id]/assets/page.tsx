@@ -57,7 +57,7 @@ export default function AssetsPage() {
   const [exchangeRates, setExchangeRates] = useState<any>(null);
   const [selected, setSelected] = useState<{ [key: string]: boolean }>({});
   const [amounts, setAmounts] = useState<{ [key: string]: number }>({});
-  const { language } = useLanguage():
+  const { language } = useLanguage();
   const t = content[language];
 
   useEffect(() => {
